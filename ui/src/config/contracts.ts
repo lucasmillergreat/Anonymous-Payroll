@@ -1,7 +1,7 @@
 export const PLACEHOLDER_ADDRESS = '0x0000000000000000000000000000000000000000' as const;
 
-const payrollAddress = (import.meta.env.VITE_PAYROLL_ADDRESS ?? PLACEHOLDER_ADDRESS) as `0x${string}`;
-const cusdcAddress = (import.meta.env.VITE_CUSDC_ADDRESS ?? PLACEHOLDER_ADDRESS) as `0x${string}`;
+const payrollAddress = "0x2Ad75e05bCcE9E9cc5D85940817c3D16052c9F3C";
+const cusdcAddress = "0xC4141a21c9DD3BbB4f534024b61351BBe3893F43";
 
 export const PAYROLL_CONTRACT = {
   address: payrollAddress,
