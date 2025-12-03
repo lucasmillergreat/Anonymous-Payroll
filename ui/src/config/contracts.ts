@@ -1,7 +1,7 @@
 export const PLACEHOLDER_ADDRESS = '0x0000000000000000000000000000000000000000' as const;
 
-const payrollAddress = "0x2Ad75e05bCcE9E9cc5D85940817c3D16052c9F3C";
-const cusdcAddress = "0xC4141a21c9DD3BbB4f534024b61351BBe3893F43";
+const payrollAddress = "0x570bcf4399Eaa417A8A4dEa573dB506d0075cf42";
+const cusdcAddress = "0x7C74dE69cff1dA968A6D063F5DB7F20E91472D47";
 
 export const PAYROLL_CONTRACT = {
   address: payrollAddress,

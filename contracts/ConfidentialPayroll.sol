@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.27;
 
-import {SepoliaConfig} from "@fhevm/solidity/config/ZamaConfig.sol";
+import {ZamaEthereumConfig} from "@fhevm/solidity/config/ZamaConfig.sol";
 import {FHE, euint64, externalEuint64} from "@fhevm/solidity/lib/FHE.sol";
 
-contract ConfidentialPayroll is SepoliaConfig {
+contract ConfidentialPayroll is ZamaEthereumConfig {
     struct SalaryRecord {
         euint64 encryptedAmount;
         address lastUpdatedBy;
